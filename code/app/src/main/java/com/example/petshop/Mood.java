@@ -20,4 +20,6 @@ public abstract class Mood {
     public void setFeltDate(Date feltDate) {
         this.feltDate = feltDate;
     }
+
+    public abstract String feeling();
 }
