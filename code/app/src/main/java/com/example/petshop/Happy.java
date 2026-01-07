@@ -12,6 +12,7 @@ public class Happy extends Mood{
         super(feltDate);
     }
 
+    @Override
     public String feeling() {
         return "Feeling Happy!";
     }
